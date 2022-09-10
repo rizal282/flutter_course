@@ -9,13 +9,15 @@ class LayoutColumn extends StatelessWidget {
       appBar: AppBar(title: const Text('Data User'),),
       body: Container(
         width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height / 0.5,
+        height: 200,
         decoration: const BoxDecoration(
           color: Colors.blueAccent
         ),
         child: Column(
-          children: [
-            
+          children: const [
+            Text('ID : 1'),
+            Text('Fullname : Rizal Ramdani'),
+            Text('Email: rizal@gmail.com')
           ],
         ),
       ),
