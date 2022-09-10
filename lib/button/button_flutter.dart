@@ -23,7 +23,18 @@ class ButtonFlutter extends StatelessWidget {
                 onPressed: () {
                   print('Outline button');
                 },
-                child: const Text('Outline Button'))
+                child: const Text('Outline Button')),
+            InkWell(
+              onTap: () {
+                print('Button container');
+              },
+              child: Container(
+                width: 100,
+                height: 20,
+                color: Colors.yellow,
+                child: const Text('Button container'),
+              ),
+            )
           ],
         ),
       ),
