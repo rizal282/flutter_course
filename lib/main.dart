@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_flutter/button/button_flutter.dart';
 import 'package:test_flutter/column/layout_column.dart';
 import 'package:test_flutter/homepage.dart';
 import 'package:test_flutter/layout_basic/layout_container.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const LayoutStack(),
+      home: const ButtonFlutter(),
     );
   }
 }
