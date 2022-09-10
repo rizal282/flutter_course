@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test_flutter/column/layout_column.dart';
 import 'package:test_flutter/homepage.dart';
 import 'package:test_flutter/layout_basic/layout_container.dart';
+import 'package:test_flutter/row/layout_row.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const LayoutColumn(),
+      home: const LayoutRow(),
     );
   }
 }
