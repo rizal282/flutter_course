@@ -14,6 +14,8 @@ class LayoutRow extends StatelessWidget {
           color: Colors.blueAccent[400]
         ),
         child: Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
               width: 50,
