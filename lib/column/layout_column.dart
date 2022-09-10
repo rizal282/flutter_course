@@ -14,6 +14,8 @@ class LayoutColumn extends StatelessWidget {
           color: Colors.blueAccent
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: const [
             Text('ID : 1'),
             Text('Fullname : Rizal Ramdani'),
