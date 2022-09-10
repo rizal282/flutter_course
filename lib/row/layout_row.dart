@@ -16,20 +16,20 @@ class LayoutRow extends StatelessWidget {
         child: Row(
           children: [
             Container(
-              width: 20,
-              height: 20,
+              width: 50,
+              height: 50,
               color: Colors.red,
             ),
 
             Container(
-              width: 20,
-              height: 20,
+              width: 50,
+              height: 50,
               color: Colors.yellow,
             ),
 
             Container(
-              width: 20,
-              height: 20,
+               width: 50,
+              height: 50,
               color: Colors.green,
             ),
           ],
