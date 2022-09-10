@@ -3,6 +3,7 @@ import 'package:test_flutter/column/layout_column.dart';
 import 'package:test_flutter/homepage.dart';
 import 'package:test_flutter/layout_basic/layout_container.dart';
 import 'package:test_flutter/row/layout_row.dart';
+import 'package:test_flutter/stack/layout_stack.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const LayoutRow(),
+      home: const LayoutStack(),
     );
   }
 }
